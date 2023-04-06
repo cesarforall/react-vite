@@ -1,0 +1,20 @@
+{
+  "name": "react-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarforall/react-vite.git"
+  },
+  "keywords": ["react", "javascript", "vite"],
+  "author": "Cesar Almeida <cesaralmeida89@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarforall/react-vite/issues"
+  },
+  "homepage": "https://github.com/cesarforall/react-vite#readme"
+}

@@ -32,3 +32,14 @@ body {
 	height: 48px;
 	border-radius: 1000px;
 }
+
+.tw-followCard__button {
+	padding: 6px 16px;
+	border: 0;
+	border-radius: 1000px;
+	cursor: pointer;
+}
+.tw-followCard__button:hover {
+	background-color: cornflowerblue;
+	color: aliceblue;
+}

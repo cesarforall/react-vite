@@ -1,6 +1,10 @@
 export function TwitterFollowCard({ name, userName, isFollowing }) {
 	console.log(`${name} is following: ${isFollowing}`);
 	const imgSrc = `https://unavatar.io/${userName}`;
+
+	const text = isFollowing ? 'Siguiendo' : 'Seguir';
+	const buttonClassName = isFollowing ? 'tw-followCard__button--isFollowing' : 'tw-followCard__button';
+
 	return (
 		<article className='tw-followCard'>
 			<header className='tw-followCard__header'>
@@ -11,7 +15,7 @@ export function TwitterFollowCard({ name, userName, isFollowing }) {
 				</div>
 			</header>
 			<aside>
-				<button className="tw-followCard__button">Seguir</button>
+				<button className={buttonClassName}>{text}</button>
 			</aside>
 		</article>
 	);
